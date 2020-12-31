@@ -5,10 +5,6 @@ import Home from "./screens/Home";
 
 const Stack = createStackNavigator();
 
-// goToScreen(routeName){
-//     this.props.navigation.navigate(routeName)
-// }
-
 export const RootStack = () => {
   return (
     <Stack.Navigator initialRouteName="Splash">
